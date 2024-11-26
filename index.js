@@ -11,7 +11,7 @@ const proxy = createProxyMiddleware({
   secure: true,
   logLevel: 'debug',
   router: function(req) {
-    if (req.headers.host === 'mathsspot.com') {
+    if (req.headers.host === 'https://now.gg/apps/electronic-arts/1353/ea-sports-fc-mobile-24-soccer.html') {
       req.headers['X-Forwarded-For'] = ''; 
       req.headers['X-Real-IP'] = '';
       req.headers['Via'] = '';
